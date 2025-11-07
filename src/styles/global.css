@@ -74,3 +74,8 @@ h1 {
     display: none;
   }
 }
+.skill {
+  color: var(--skillColor);
+  font-weight: var(--fontWeight);
+  text-transform: var(--textCase);
+}

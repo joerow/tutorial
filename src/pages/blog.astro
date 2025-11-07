@@ -12,7 +12,7 @@ const pageTitle = "My Astro Blog";
   <p>This is where I will post about my journey learning Astro.</p>
   <ul>
     {
-      allPosts.map((post) => (
+      allPosts.map((post: any) => (
         <BlogPost url={post.url} title={post.frontmatter.title} />
       ))
     }
